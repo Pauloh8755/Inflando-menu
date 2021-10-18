@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_salvar"
+        android:title="Salvar"
+        android:icon="@drawable/save_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_config"
+        android:title="Configurações"
+        android:icon="@drawable/settings_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/menu_perfil"
+        android:title="Perfil"
+        android:icon="@drawable/person_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/menu_opcaoes"
+        android:title="Opções"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/menu_sair"
+        android:title="Sair"
+        app:showAsAction="never"
+        />
+
+</menu>
